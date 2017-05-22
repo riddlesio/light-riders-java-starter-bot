@@ -36,7 +36,6 @@ public class BotState {
 
 	private int MAX_TIMEBANK;
     private int TIME_PER_MOVE;
-    private int MAX_ROUNDS;
 
     private int roundNumber;
     private int timebank;
@@ -66,10 +65,6 @@ public class BotState {
 
     public void setMyName(String myName) {
         this.myName = myName;
-    }
-
-    public void setMaxRounds(int value) {
-        this.MAX_ROUNDS = value;
     }
 
     public void setRoundNumber(int roundNumber) {
@@ -102,10 +97,6 @@ public class BotState {
 
     public int getTimePerMove() {
         return this.TIME_PER_MOVE;
-    }
-
-    public int getMaxRound() {
-        return this.MAX_ROUNDS;
     }
 
     public MoveType getLastDirection() {

@@ -118,9 +118,6 @@ public class BotParser {
 				case "field_height":
 					this.currentState.getField().setHeight(Integer.parseInt(value));
 					break;
-				case "max_rounds":
-					this.currentState.setMaxRounds(Integer.parseInt(value));
-					break;
 				default:
 					System.err.println(String.format(
 							"Cannot parse settings input with key '%s'", key));
